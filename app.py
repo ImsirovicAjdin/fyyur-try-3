@@ -23,7 +23,7 @@ app.config.from_object('config')
 db = SQLAlchemy(app)
 migrate = Migrate(app, db) # to enable migrations
 
-# TODO: connect to a local postgresql database
+# TODO: connect to a local postgresql database (#### DONE ####)
 
 #----------------------------------------------------------------------------#
 # Models.
@@ -59,7 +59,7 @@ class Artist(db.Model):
 
 # TODO Implement Show and Artist models, and complete all model relationships and properties, as a database migration.
 
-db.create_all()
+# db.create_all()
 
 #----------------------------------------------------------------------------#
 # Filters.
